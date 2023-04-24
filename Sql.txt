@@ -1,0 +1,94 @@
+Structured query language
+
+It is a computer language for storing, 
+manipulating and retrieving data stored
+in relational database
+
+Sql is the standard language for Relation
+Database System.
+
+Sql is a core of relational type of databases
+
+Crud operations can be performed here
+
+Sql was develepoed by ibm in early 1970
+initally was called sequel
+
+select insert update and many query
+
+sql query is portable, if evevirnment of system are same
+
+What is database?
+
+create database database name;
+
+drop database database name;
+
+
+attribute features of an entity
+ 
+
+create table emp;
+drop table emp;
+
+inserting new values
+insert into Customers(customer_id,first_name,last_name,age,country))
+values (7,Devin,SqlPero,'29','India');
+
+fetch
+SELECT * FROM Customers WHERE  first_name= 'Charu';
+
+Alter table Customers
+Drop column country;
+
+deleting a entity of a column
+delete from Customers
+where customer_id =2;
+
+update Customers
+Set first_name ='Charu',last_name='Shane'
+Where Customer_id =3;
+
+clauses
+Clauses are inbuilt funtions that are
+available to us in sql, dealing with
+data will be easy by using clauses
+
+Where clause
+Where clause used to specify condition,
+can be seen used in the update and delete
+select * from Customers
+where first_name= 'Charu';
+
+And clause
+And clause used to execuite multiple
+condition and both should be true
+select * from Customers
+where first_name= 'Charu' and last_name='Shane';
+
+or
+Or clause used when any one condition is
+true, it will execuite that condition
+select * from Customers
+where first_name= 'Charu' or last_name='Shane';
+
+like clause (Pattern, charecter starting)
+Like clause is used to follow patterns
+eg like 'A%'
+will provide all data starting with A
+Select * from Customers where first_name LIKE'c%';
+
+limit clause (return is limited to the number)
+will return only five rows of our table 
+if set to 5
+Select * from Customers limit 3 ;
+
+orderby clause (sorting asce/desc)
+Orderby clause is useful to get data in
+required sorting order
+Select * from Customers Order by age desc ;
+
+
+groupby clause (grouping by column)
+Used to group the data present, sum & count
+can be performed

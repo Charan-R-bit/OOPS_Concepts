@@ -1,0 +1,24 @@
+Sql joins
+A join clause is used to combine two or more rows, from two different tables
+
+Inner join
+combines two or more rows and returns only the common data represent in both table
+
+Left join
+left join only returns records that is present in the left table with the matching record's that is common with other table
+
+Right join
+Right join only returns records that is present in the right table with the matching record's that is common with other table
+
+Full join
+Full join returns all the records present in both the tables and commons, in the form of column
+
+Self join
+Self join is a join where the table is joined with itself
+
+Union clause
+it combines the data into rows
+in the result, the records of table is placed 1st
+and record of table 2 is placed next.
+
+Commands used in joins
